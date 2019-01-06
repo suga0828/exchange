@@ -110,7 +110,7 @@ module.exports = "mat-sidenav {\r\n  position: fixed;\r\n  width: 250px;\r\n}\r\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-sidenav-container>\n    <mat-sidenav #sidenav mode=\"side\">\n      <mat-nav-list>\n        <a mat-list-item (click)=\"sidenav.toggle()\" routerLink=\"/landing\">Inicio</a>\n        <a mat-list-item routerLink=\"/console/user\">Cuenta</a>\n        <a mat-list-item routerLink=\"/console/transfer\">Quiero Transferir</a>\n        <a mat-list-item routerLink=\"/console/withdraw\">Quiero Retirar</a>\n        <a mat-list-item routerLink=\"/console/historical\">Historial</a>\n        <a mat-list-item *ngIf=\"!currentUser\" routerLink=\"/console\">Iniciar Sesión</a>\n        <a mat-list-item *ngIf=\"currentUser\" (click)=\"logOut(); sidenav.toggle()\">Cerrar Sesión</a>\n      </mat-nav-list>\n  </mat-sidenav>\n\n  <mat-sidenav-content>\n    <app-header *ngIf=\"router.url === '/landing' || router.url == '/console/login'\"></app-header>\n    <a class=\"waves-effect waves-light btn menu\" (click)=\"sidenav.toggle()\" *ngIf=\" router.url != '/' && router.url != '/landing' && router.url != '/console/login'\">&#9776;</a>\n    <router-outlet></router-outlet>\n    <app-footer></app-footer>\n  </mat-sidenav-content>\n</mat-sidenav-container>\n"
+module.exports = "<mat-sidenav-container>\n    <mat-sidenav #sidenav mode=\"side\">\n      <mat-nav-list>\n        <a mat-list-item (click)=\"sidenav.toggle()\" routerLink=\"/landing\">Inicio</a>\n        <a mat-list-item routerLink=\"/console/user\">Cuenta</a>\n        <a mat-list-item routerLink=\"/console/transfer\">Quiero Transferir</a>\n        <a mat-list-item routerLink=\"/console/withdraw\">Quiero Retirar</a>\n        <a mat-list-item routerLink=\"/console/historical\">Historial</a>\n        <a mat-list-item *ngIf=\"!currentUser\" routerLink=\"/console\">Iniciar Sesión</a>\n        <a mat-list-item *ngIf=\"currentUser\" (click)=\"logOut(); sidenav.toggle()\">Cerrar Sesión</a>\n      </mat-nav-list>\n  </mat-sidenav>\n\n  <mat-sidenav-content>\n    <app-header [sidenav]=\"sidenav\" *ngIf=\"router.url === '/landing' || router.url == '/console/login'\"></app-header>\n    <a class=\"waves-effect waves-light btn menu\" (click)=\"sidenav.toggle()\" *ngIf=\" router.url != '/' && router.url != '/landing' && router.url != '/console/login'\">&#9776;</a>\n    <router-outlet></router-outlet>\n    <app-footer></app-footer>\n  </mat-sidenav-content>\n</mat-sidenav-container>\n"
 
 /***/ }),
 
@@ -363,6 +363,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _services_scroll_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../services/scroll.service */ "./src/app/services/scroll.service.ts");
 /* harmony import */ var src_app_services_authentication_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/authentication.service */ "./src/app/services/authentication.service.ts");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -372,6 +373,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -394,6 +396,10 @@ var HeaderComponent = /** @class */ (function () {
     HeaderComponent.prototype.scrollToElement = function ($e) {
         this.scrollService.scrollToElement($e);
     };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('sidenav'),
+        __metadata("design:type", _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatSidenav"])
+    ], HeaderComponent.prototype, "sidenav", void 0);
     HeaderComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-header',
@@ -1077,7 +1083,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Win 7\Documents\Alexander\Desarrollo-Web\Proyectos\App-Exchange\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\Win 7\Documents\Alexander\Desarrollo-Web\Proyectos\app-exchange\src\main.ts */"./src/main.ts");
 
 
 /***/ })

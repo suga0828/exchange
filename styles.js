@@ -678,10 +678,10 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Win 7\Documents\Alexander\Desarrollo-Web\Proyectos\App-Exchange\node_modules\@angular\material\prebuilt-themes\indigo-pink.css */"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css");
-__webpack_require__(/*! C:\Users\Win 7\Documents\Alexander\Desarrollo-Web\Proyectos\App-Exchange\node_modules\materialize-css\dist\css\materialize.css */"./node_modules/materialize-css/dist/css/materialize.css");
-__webpack_require__(/*! C:\Users\Win 7\Documents\Alexander\Desarrollo-Web\Proyectos\App-Exchange\node_modules\firebaseui\dist\firebaseui.css */"./node_modules/firebaseui/dist/firebaseui.css");
-module.exports = __webpack_require__(/*! C:\Users\Win 7\Documents\Alexander\Desarrollo-Web\Proyectos\App-Exchange\src\styles.css */"./src/styles.css");
+__webpack_require__(/*! C:\Users\Win 7\Documents\Alexander\Desarrollo-Web\Proyectos\app-exchange\node_modules\@angular\material\prebuilt-themes\indigo-pink.css */"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css");
+__webpack_require__(/*! C:\Users\Win 7\Documents\Alexander\Desarrollo-Web\Proyectos\app-exchange\node_modules\materialize-css\dist\css\materialize.css */"./node_modules/materialize-css/dist/css/materialize.css");
+__webpack_require__(/*! C:\Users\Win 7\Documents\Alexander\Desarrollo-Web\Proyectos\app-exchange\node_modules\firebaseui\dist\firebaseui.css */"./node_modules/firebaseui/dist/firebaseui.css");
+module.exports = __webpack_require__(/*! C:\Users\Win 7\Documents\Alexander\Desarrollo-Web\Proyectos\app-exchange\src\styles.css */"./src/styles.css");
 
 
 /***/ })
