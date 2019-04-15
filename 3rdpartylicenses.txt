@@ -86,11 +86,15 @@ THE SOFTWARE.
 
 @angular/material/form-field
 
+@angular/material/icon
+
 @angular/material/list
 
 @angular/material/menu
 
 @angular/material/paginator
+
+@angular/material/radio
 
 @angular/material/select
 
