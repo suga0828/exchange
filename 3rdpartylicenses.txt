@@ -94,7 +94,7 @@ THE SOFTWARE.
 
 @angular/material/paginator
 
-@angular/material/radio
+@angular/material/progress-spinner
 
 @angular/material/select
 
