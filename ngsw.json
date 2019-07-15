@@ -1,0 +1,100 @@
+{
+  "configVersion": 1,
+  "timestamp": 1563217343559,
+  "index": "https://suga0828.github.io/App-Exchange/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://suga0828.github.io/App-Exchange/1.b6e69d69a71b6cec6dfd.js",
+        "https://suga0828.github.io/App-Exchange/6.96f7bf0ffc58128966af.js",
+        "https://suga0828.github.io/App-Exchange/7.6c7956e1bc0a9e66817d.js",
+        "https://suga0828.github.io/App-Exchange/favicon.ico",
+        "https://suga0828.github.io/App-Exchange/index.html",
+        "https://suga0828.github.io/App-Exchange/main.e963fa100606856d9d1d.js",
+        "https://suga0828.github.io/App-Exchange/polyfills.5cf67f877ff1a8c02c13.js",
+        "https://suga0828.github.io/App-Exchange/runtime.52e43476c615b781a987.js",
+        "https://suga0828.github.io/App-Exchange/styles.eaf0d319b06dda099133.css",
+        "https://suga0828.github.io/App-Exchange/vendor.87fbab0123d650c26bf7.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://suga0828.github.io/App-Exchange/assets/files/privacyPolicy.pdf",
+        "https://suga0828.github.io/App-Exchange/assets/files/termsOfService.pdf",
+        "https://suga0828.github.io/App-Exchange/assets/icons/icon-128x128.png",
+        "https://suga0828.github.io/App-Exchange/assets/icons/icon-144x144.png",
+        "https://suga0828.github.io/App-Exchange/assets/icons/icon-152x152.png",
+        "https://suga0828.github.io/App-Exchange/assets/icons/icon-192x192.png",
+        "https://suga0828.github.io/App-Exchange/assets/icons/icon-384x384.png",
+        "https://suga0828.github.io/App-Exchange/assets/icons/icon-512x512.png",
+        "https://suga0828.github.io/App-Exchange/assets/icons/icon-72x72.png",
+        "https://suga0828.github.io/App-Exchange/assets/icons/icon-96x96.png",
+        "https://suga0828.github.io/App-Exchange/assets/images/brand-logo.png",
+        "https://suga0828.github.io/App-Exchange/assets/images/brand.jpeg",
+        "https://suga0828.github.io/App-Exchange/assets/images/facebook-brand.png",
+        "https://suga0828.github.io/App-Exchange/assets/images/instagram-brand.png",
+        "https://suga0828.github.io/App-Exchange/assets/images/person1.jpg",
+        "https://suga0828.github.io/App-Exchange/assets/images/person2.jpg",
+        "https://suga0828.github.io/App-Exchange/assets/images/person3.jpg",
+        "https://suga0828.github.io/App-Exchange/assets/images/whatsapp-brand.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://suga0828.github.io/App-Exchange/1.b6e69d69a71b6cec6dfd.js": "0e8eede4af9d8b9872c1e546bc98da17cba59b8c",
+    "https://suga0828.github.io/App-Exchange/6.96f7bf0ffc58128966af.js": "348ff19950ca53ef53bdffd8a0a0aa291758010e",
+    "https://suga0828.github.io/App-Exchange/7.6c7956e1bc0a9e66817d.js": "bb5b48e42fab2d3bcef2662d61ccc5bdaa332ae3",
+    "https://suga0828.github.io/App-Exchange/assets/files/privacyPolicy.pdf": "35de8c2c56da47f766ef41d0afac4c530586e2b3",
+    "https://suga0828.github.io/App-Exchange/assets/files/termsOfService.pdf": "1e4a7a18a1d61785eac7100ed799f178f7de2c58",
+    "https://suga0828.github.io/App-Exchange/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://suga0828.github.io/App-Exchange/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://suga0828.github.io/App-Exchange/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://suga0828.github.io/App-Exchange/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://suga0828.github.io/App-Exchange/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://suga0828.github.io/App-Exchange/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://suga0828.github.io/App-Exchange/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://suga0828.github.io/App-Exchange/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://suga0828.github.io/App-Exchange/assets/images/brand-logo.png": "5aa1c85515c72372b3fac4a715693b1579fc4674",
+    "https://suga0828.github.io/App-Exchange/assets/images/brand.jpeg": "7968cceb31a1f58f8911221745720520c88c7f3b",
+    "https://suga0828.github.io/App-Exchange/assets/images/facebook-brand.png": "71bb1dcf4e8f87ae0a3d6ec9cf0083b672675496",
+    "https://suga0828.github.io/App-Exchange/assets/images/instagram-brand.png": "ef4e7eff5caaff3c49816fbe5c59e620b4dffe42",
+    "https://suga0828.github.io/App-Exchange/assets/images/person1.jpg": "59ee5654166434114e21d5df98603e0dec2e0a91",
+    "https://suga0828.github.io/App-Exchange/assets/images/person2.jpg": "737295535b45e66abfd0a0a2aa78730211f6b6a4",
+    "https://suga0828.github.io/App-Exchange/assets/images/person3.jpg": "0ac4a72a1baec92c12b0de2bf78dbb17aa8cf0bb",
+    "https://suga0828.github.io/App-Exchange/assets/images/whatsapp-brand.png": "468d1d4a68a6ed6dad42f5470ae1d22fa6c032b9",
+    "https://suga0828.github.io/App-Exchange/favicon.ico": "e44ae274850a078c6fd841d00d94f65f0d597ebf",
+    "https://suga0828.github.io/App-Exchange/index.html": "70c41e0c5169ea48c93ca6c7509da6fc13debb03",
+    "https://suga0828.github.io/App-Exchange/main.e963fa100606856d9d1d.js": "03a0d2aaccbf1336cd8f039acb8ab1ccb529b83d",
+    "https://suga0828.github.io/App-Exchange/polyfills.5cf67f877ff1a8c02c13.js": "35efac68587d6024202d011a4139365d4b37942a",
+    "https://suga0828.github.io/App-Exchange/runtime.52e43476c615b781a987.js": "4b24466e68af0662fcf053e03434710927be3c58",
+    "https://suga0828.github.io/App-Exchange/styles.eaf0d319b06dda099133.css": "9c19898325a6e4fb429931fc730a529df0630d85",
+    "https://suga0828.github.io/App-Exchange/vendor.87fbab0123d650c26bf7.js": "4f6e967c37ddf6604a41b96f169a4a7cbb18359c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
